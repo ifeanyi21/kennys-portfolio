@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-
 function Footer() {
   return (
     <div className="container my-16">
@@ -18,30 +17,30 @@ function Footer() {
             <a
               target={"_blank"}
               rel="noreferrer"
-              href="https://taiwomadewriter-com.preview-domain.com/2022/11/about-taiwo/"
+              href="https://blog.kennykwrites.info/2019/09/04/nothing-beats-new-york/"
               className="text-black no-underline"
             >
-              About Kenny
+              Nothing Beats New York
             </a>
           </div>
           <div className="text-muted text-base my-8">
             <a
               target={"_blank"}
               rel="noreferrer"
-              href="https://taiwomadewriter-com.preview-domain.com/2022/01/the-power-of-stories/"
+              href="https://blog.kennykwrites.info/2019/05/09/getting-what-you-want/"
               className="text-black no-underline"
             >
-              The Power Of Stories
+              Getting What You Want
             </a>
           </div>
           <div className="text-muted text-base">
             <a
               target={"_blank"}
               rel="noreferrer"
-              href="https://taiwomadewriter-com.preview-domain.com/2022/08/book-a-call-with-me/"
+              href="https://blog.kennykwrites.info/2019/03/21/are-you-sabotaging-your-creativity/"
               className="text-black no-underline"
             >
-              Book A Call With Me
+              Are You Sabotaging Your Creativity
             </a>
           </div>
         </div>
@@ -61,7 +60,7 @@ function Footer() {
             <a
               target={"_blank"}
               rel="noreferrer"
-              href="/https://taiwomadewriter-com.preview-domain.com/"
+              href="https://blog.kennykwrites.info"
               className="nav-link"
             >
               My Blog

@@ -5,26 +5,26 @@ import Link from "next/link";
 import { Button, Divider } from "@mui/material";
 import ArticleCard from "@/components/Card/ArticleCard";
 import Layout from "@/Layout/Layout";
-import Kenny from "../assests/images/newyork.jpg"
+import Kenny from "../assests/images/newyork.jpg";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const articles = [
     {
-      url: "https://taiwomadewriter-com.preview-domain.com/2022/11/about-taiwo/",
-      header: "About Taiwo",
-      body: "Taiwo was born into a small, close-knit family in Ogun State, Nigeria. His family loved books, with his father always buying new books whenever he went to work. Although he…",
+      url: "https://blog.kennykwrites.info/2019/09/04/nothing-beats-new-york/",
+      header: "Nothing Beats New York",
+      body: "Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales...",
     },
     {
-      url: "https://taiwomadewriter-com.preview-domain.com/2022/08/book-a-call-with-me/",
-      header: "Book A Call With Me",
-      body: "Your stories and ideas should never die with you when you can create books and other content forms from them.  With more than a million words written, three million edited…",
+      url: "https://blog.kennykwrites.info/2019/05/09/getting-what-you-want/",
+      header: "Getting What You Want",
+      body: "Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales...",
     },
     {
-      url: "https://taiwomadewriter-com.preview-domain.com/2022/01/the-power-of-stories/",
-      header: "The Power Of Stories",
-      body: "As a child, my father’s bedtime stories always thrilled me. As in African homes, there was never a lack of stories. My father started with the fables before using everyday…",
+      url: "https://blog.kennykwrites.info/2019/03/21/are-you-sabotaging-your-creativity/",
+      header: "Are You Sabotaging Your Creativity",
+      body: "Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales...",
     },
   ];
   return (
@@ -91,10 +91,17 @@ export default function Home() {
           <div className="my-5">
             <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
               <div className="col-lg-4 p-0 overflow-hidden">
-                <Image className="rounded-lg-3" src={Kenny} alt="" width="720" />
+                <Image
+                  className="rounded-lg-3"
+                  src={Kenny}
+                  alt=""
+                  width="720"
+                />
               </div>
               <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <h1 className="display-4 fw-bold lh-1 mb-10 text-red-300">Work with Me</h1>
+                <h1 className="display-4 fw-bold lh-1 mb-10 text-red-300">
+                  Work with Me
+                </h1>
                 <p className="lead mb-8">
                   I am a bestselling author, speaker, and ghostwriter. I write
                   books on creativity and transformation and run a book
@@ -180,7 +187,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mb-16">
-            <h1 className="mb-16 underline text-red-300">Articles</h1>
+            <h1 className="mb-16 text-red-300 text-center">Articles</h1>
             <div className="row">
               {articles.map((article, index) => {
                 return (
@@ -201,7 +208,11 @@ export default function Home() {
                 href={"https://blog.kennykwrites.info"}
                 className="no-underline css-ueiwni"
               >
-                <Button sx={{color:"#FCA5A5", border:"1px solid #FCA5A5"}} variant="outlined" size="large">
+                <Button
+                  sx={{ color: "#FCA5A5", border: "1px solid #FCA5A5" }}
+                  variant="outlined"
+                  size="large"
+                >
                   More Articles
                 </Button>
               </a>
