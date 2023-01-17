@@ -9,7 +9,7 @@ function About() {
     <Layout>
       <div className="container">
         <div className="row mb-40">
-          <div className="col-lg-6">
+          <div className="col-lg-6 mb-4">
             <div className="py-5 mt-10">
               <h1 className="text-5xl font-extrabold">
                 Hi, I'm <span className="text-red-300">Kenny Kolawole</span>
@@ -21,7 +21,7 @@ function About() {
               <p className="text-xl font-bold">But really, I’m a creator.</p>
             </div>
           </div>
-          <div className="col-lg-6 relative">
+          <div className="col-lg-6 relative mb-4">
             <div className="h-80 w-80 mx-auto object-contain">
               <Image
                 src={Kenny}

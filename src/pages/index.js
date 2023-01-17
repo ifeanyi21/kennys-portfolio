@@ -91,7 +91,7 @@ export default function Home() {
           <div className="my-5">
             <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
               <div className="col-lg-4 p-0 overflow-hidden">
-                <img className="rounded-lg-3" src={Image} alt="" width="720" />
+                <Image className="rounded-lg-3" src={Kenny} alt="" width="720" />
               </div>
               <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
                 <h1 className="display-4 fw-bold lh-1 mb-10 text-red-300">Work with Me</h1>
